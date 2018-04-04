@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/clubPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/zion_np" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/clubPhoto"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="16dp"
+                android:text="@string/club_name"
+                android:textColor="@android:color/white"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                style="@style/listItems"
+                android:paddingBottom="14dp"
+                android:text="@string/club_description" />
+
+            <TextView
+                style="@style/listHeadings"
+                android:text="@string/destination_heading" />
+
+            <TextView
+                style="@style/listItems"
+                android:text="@string/destination" />
+
+            <TextView
+                style="@style/listHeadings"
+                android:text="@string/location_heading" />
+
+            <TextView
+                style="@style/listItems"
+                android:text="@string/location" />
+
+            <TextView
+                style="@style/listHeadings"
+                android:text="@string/date_heading" />
+
+            <TextView
+                style="@style/listItems"
+                android:text="@string/date" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnJoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/darker_gray"
+        android:text="Join"
+        android:textSize="18sp" />
+
+</RelativeLayout>

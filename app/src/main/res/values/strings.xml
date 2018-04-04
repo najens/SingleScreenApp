@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Single Screen App</string>
+    <string name="club_name">Lehi Adventure Club</string>
+    <string name="club_description">Join us for our next outdoor adventure. Activities include hiking, canyoneering, rock climbing, and kayaking.</string>
+    <string name="destination_heading">Destination</string>
+    <string name="destination">Moab, UT</string>
+    <string name="location_heading">Location</string>
+    <string name="location">1234 Timpanogos Highway, Lehi, UT</string>
+    <string name="date_heading">Date</string>
+    <string name="date">Friday, June 2, 5:00pm</string>
+</resources>
